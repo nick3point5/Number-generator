@@ -1,0 +1,22 @@
+div{
+    text-align:center;
+}
+
+button{
+    font-family: "Courier New";
+    font-size: 40px;
+    border-radius: 100px;
+    color: lightskyblue;
+}
+
+p {
+    font-family: "Arial Black";
+    font-size: 40px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
