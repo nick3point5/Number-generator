@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="index.css" />
+        <meta http-equiv="refresh" content="" />
+    </head>
+    <div class="Thestuff">
+
+        <button id="button" onclick="gen_num()">
+            Generate Numbers   
+        </button>
+
+        <button id="clcbutton" onclick="tableClear()">
+            Clear Numbers   
+        </button>
+
+        <form>
+            <label for="min">
+                Maximum Value:
+                <input type="number" id="mini" value=1>
+            </label>
+
+
+        </form>
+   
+        <form>
+            <label for="max">
+                Minimum Value:
+                <input type="number" id="maxi" value=9>
+            </label>
+        </form>
+
+        <form>
+            <label for="sign">
+                Decimal Places:
+                <input type="number" id="sig" value=0>
+            </label>
+        </form>
+
+        <form>
+            <label for="columns">
+                Max Columns
+                <input type="number" id="columns" value=10>
+            </label>
+        </form>
+
+        
+        <form>
+            <label for="loop">
+                number of numbers':
+                <input type="number" id="loops" value=5>
+            </label>
+        </form>
+
+
+        <button id="dwnldbutton" onclick="DownloadNum()">
+            Export to Excel  
+        </button>
+
+        <table id="table">
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+        
+    </div>
+    <script type="text/javascript" src="javascript.js">
+
+    </script>
+</html>
